@@ -1,0 +1,55 @@
+{
+	"name": "gatsby-theme-elemental",
+	"description": "A simple starter to get up and developing quickly with Gatsby",
+	"version": "1.0.1",
+	"author": "Akshay <hi@akzhy.com> @_akzhy",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"develop": "gatsby develop"
+	},
+	"peerDependencies": {
+		"gatsby": "^2.13.41",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"dependencies": {
+		"gatsby": "^2.13.41",
+		"gatsby-custom-md": "^1.0.2",
+		"gatsby-image": "^2.2.3",
+		"gatsby-plugin-less": "^2.1.0",
+		"gatsby-plugin-manifest": "^2.2.0",
+		"gatsby-plugin-offline": "^2.2.0",
+		"gatsby-plugin-page-creator": "^2.1.5",
+		"gatsby-plugin-react-helmet": "^3.1.0",
+		"gatsby-plugin-sharp": "^2.1.2",
+		"gatsby-remark-copy-linked-files": "^2.1.0",
+		"gatsby-remark-images": "^3.1.2",
+		"gatsby-source-filesystem": "^2.1.0",
+		"gatsby-transformer-remark": "^2.5.0",
+		"gatsby-transformer-sharp": "^2.2.0",
+		"less": "^3.9.0",
+		"prop-types": "^15.7.2",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-helmet": "^5.2.1",
+		"react-sidebar": "^3.0.2"
+	},
+	"keywords": [
+		"gatsby",
+		"gatsby-theme",
+		"gatsby-plugin",
+		"portfolio",
+		"blog"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/akzhy/gatsby-theme-elemental"
+	},
+	"bugs": {
+		"url": "https://github.com/akzhy/gatsby-theme-elemental/issues"
+	},
+	"homepage": "https://github.com/akzhy/gatsby-theme-elemental"
+}

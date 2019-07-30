@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "workspaces": [
+        "gatsby-theme-elemental",
+        "site"
+    ],
+    "scripts": {
+        "develop": "yarn workspace site develop",
+        "build": "yarn workspace site build",
+        "clean": "yarn workspace site clean"
+    }
+}
