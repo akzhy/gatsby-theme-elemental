@@ -11,21 +11,23 @@ exports.onCreateNode = ({node, getNode, actions}) => {
 }
 
 exports.onPreBootstrap = ( {reporter} , themeOptions) => {
-    if (!fs.existsSync("contents")) {
-        reporter.info(`creating the contents directory`);
-        fs.mkdirSync("contents");
+    const contentPath = themeOptions.contentPath || 'contents';
+
+    if (!fs.existsSync(contentPath)) {
+        reporter.info(`creating the ${contentPath} directory`);
+        fs.mkdirSync(contentPath);
     }
-    if (!fs.existsSync("contents/blog")) {
-        reporter.info(`creating the content/blog directory`);
-        fs.mkdirSync("contents/blog");
+    if (!fs.existsSync(`${contentPath}/blog`)) {
+        reporter.info(`creating the ${contentPath}/blog directory`);
+        fs.mkdirSync(`${contentPath}/blog`);
     }
-    if (!fs.existsSync("contents/portfolio")) {
-        reporter.info(`creating the content/portfolio directory`);
-        fs.mkdirSync("contents/portfolio");
+    if (!fs.existsSync(`${contentPath}/portfolio)`) {
+        reporter.info(`creating the ${contentPath}/portfolio directory`);
+        fs.mkdirSync(`${contentPath}/portfolio`);
     }
-    if (!fs.existsSync("contents/basepages")) {
-        reporter.info(`creating the content/basepages directory`);
-        fs.mkdirSync("contents/basepages");
+    if (!fs.existsSync(`${contentPath}/basepages`)) {
+        reporter.info(`creating the ${contentPath}/basepages directory`);
+        fs.mkdirSync(`${contentPath}/basepages`);
     }
 };
 
