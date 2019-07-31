@@ -1,12 +1,36 @@
 # Gatsby Theme Elemental
 
-
-Elemental is a portfolio template suitable for artists, photographers, designers etc. With the theme you can create blog posts, portfolio posts an miscellaneous posts (such as privacy-policy).
+A Gatsby portfolio theme for artists, designers, bloggers, photographers and other creators.
 
 ## Installation
+To use this theme follow these instructions:
+
+* Install the theme
 
 ```
 npm install gatsby-theme-elemental
+```
+
+* Add the theme to your `gatsby-config.js`
+
+```
+module.exports = {
+  plugins: [
+    'gatsby-theme-pure'
+  ]
+}
+```
+
+* Develop
+
+```
+gatsby develop
+```
+
+or build
+
+```
+gatsby build
 ```
 
 ### Configuring
@@ -158,8 +182,3 @@ On form submission, a `post` request will be sent to the URL given with properti
 ```
 
 If response is "success" a "Message sent" message will be shown, otherwise an error message is shown.
-
-
-## Contributing
-
-Any kind of contributions are welcome. Bump the version and create a PR.

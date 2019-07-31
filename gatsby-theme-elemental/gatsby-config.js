@@ -1,6 +1,6 @@
 const path = require("path");
 
-module.exports = () => {
+module.exports = ({ contentPath = `contents` }) => {
     return {
         plugins: [
             `gatsby-plugin-sharp`,
@@ -24,7 +24,7 @@ module.exports = () => {
                 resolve: `gatsby-source-filesystem`,
                 options: {
                     name: `contents`,
-                    path: path.resolve("contents")
+                    path: path.resolve(contentPath)
                 }
             },
             {

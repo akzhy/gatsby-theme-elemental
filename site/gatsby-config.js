@@ -72,7 +72,7 @@ module.exports = {
     plugins: [{
         resolve: "gatsby-theme-elemental",
         options: {
-            basePath: "/"
+            contentPath: "contents"
         }
     }]
 }
