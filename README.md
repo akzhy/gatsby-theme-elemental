@@ -16,7 +16,7 @@ npm install gatsby-theme-elemental
 ```
 module.exports = {
   plugins: [
-    'gatsby-theme-pure'
+    'gatsby-theme-elemental'
   ]
 }
 ```
