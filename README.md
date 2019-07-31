@@ -1,5 +1,7 @@
 # Gatsby Theme Elemental
 
+[Live Demo](https://elemental-theme.netlify.com/) [Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)
+
 A Gatsby portfolio theme for artists, designers, bloggers, photographers and other creators.
 
 ## Installation
