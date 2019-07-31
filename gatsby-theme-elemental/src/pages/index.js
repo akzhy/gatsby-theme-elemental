@@ -12,7 +12,7 @@ class IndexPage extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			winHeight: 0
+			winHeight: "100vh"
 		}
 	}
 
@@ -62,14 +62,14 @@ class IndexPage extends React.Component{
 	}
 	setWindowHeight(){
 		this.setState({
-			winHeight: window.innerHeight
+			winHeight: window.innerHeight + "px"
 		})
 	}
 	render(){
 		return(
 			<Layout placeholder={false}>
 				<SEO lang="en" title={this.props.data.site.siteMetadata.title}/>
-				<div className="wall" style={{ height: this.state.winHeight+"px"}}>
+				<div className="wall" style={{ height: this.state.winHeight}}>
 					<div className="intro container">
 						<div className="main-title text-primary">
 							<svg width="90%" height="220px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" ref={c => this.svg = c}>
