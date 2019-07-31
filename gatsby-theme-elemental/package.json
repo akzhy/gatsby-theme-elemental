@@ -1,7 +1,7 @@
 {
 	"name": "gatsby-theme-elemental",
 	"description": "A simple starter to get up and developing quickly with Gatsby",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Akshay <hi@akzhy.com> @_akzhy",
 	"main": "index.js",
 	"license": "MIT",
