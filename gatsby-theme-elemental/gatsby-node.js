@@ -21,7 +21,7 @@ exports.onPreBootstrap = ( {reporter} , themeOptions) => {
         reporter.info(`creating the ${contentPath}/blog directory`);
         fs.mkdirSync(`${contentPath}/blog`);
     }
-    if (!fs.existsSync(`${contentPath}/portfolio)`) {
+    if (!fs.existsSync(`${contentPath}/portfolio`)) {
         reporter.info(`creating the ${contentPath}/portfolio directory`);
         fs.mkdirSync(`${contentPath}/portfolio`);
     }
