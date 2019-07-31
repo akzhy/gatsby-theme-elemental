@@ -1,5 +1,7 @@
 # Gatsby Theme Elemental
 
+[Live Demo](https://elemental-theme.netlify.com/) [Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)
+
 
 Elemental is a portfolio template suitable for artists, photographers, designers etc. With the theme you can create blog posts, portfolio posts an miscellaneous posts (such as privacy-policy).
 
