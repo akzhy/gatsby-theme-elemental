@@ -10,6 +10,7 @@ let siteMetadata = {
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true,
+    switchTheme: true,
     navLinks: [{
             name: "HOME",
             url: "/"
