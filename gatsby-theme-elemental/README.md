@@ -1,6 +1,6 @@
 # Gatsby Theme Elemental
 
-[Live Demo](https://elemental-theme.netlify.com/) [Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)
+**[Live Demo](https://elemental-theme.netlify.com/)** | **[Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)**
 
 
 Elemental is a portfolio template suitable for artists, photographers, designers etc. With the theme you can create blog posts, portfolio posts an miscellaneous posts (such as privacy-policy).
@@ -30,6 +30,7 @@ let siteMetadata = {
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true, // Whether to enable the darkmode. Change to false if you want the light mode
+    switchTheme: true,
     // The links shown on the navbar and footer, follow the same structure to add or remove more items.
     navLinks: [{
             name: "HOME",
@@ -132,9 +133,9 @@ To create a grid, follow the below structure
 
 ```
 [row]
-  [col]
-    **Markdown**
-  [/col]
+[col]
+**Markdown**
+[/col]
 [/row]
 ```
 
